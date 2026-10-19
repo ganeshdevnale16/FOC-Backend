@@ -12,24 +12,7 @@ export default function ModuleMenu({ modules, onSelect }) {
         fontFamily: "system-ui, -apple-system, sans-serif",
       }}
     >
-      {/* Green banner */}
-      <div style={{ background: THEME.green, padding: "26px 32px" }}>
-        <h1
-          style={{
-            fontSize: 22,
-            fontWeight: 800,
-            color: "#ffffff",
-            margin: "0 0 4px",
-            textTransform: "uppercase",
-            letterSpacing: "0.02em",
-          }}
-        >
-          Control Testing Assistants
-        </h1>
-        <p style={{ fontSize: 14, color: "rgba(255,255,255,0.9)", margin: 0 }}>
-          Choose which assistant you'd like to open.
-        </p>
-      </div>
+
 
       <div
         style={{
